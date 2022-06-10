@@ -2,3 +2,27 @@
   display: grid;
   grid-template: 50px 50px / 1fr 200px 1fr;
 }
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: aqua;
+}
+
+.three {
+  background-color: green;
+}
+
+.ads {
+  background-color: orange;
+}
+
+.header {
+  background-color: blue;
+}
+
+.footer {
+  background-color: yellow;
+}
