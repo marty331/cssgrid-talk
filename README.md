@@ -9,3 +9,9 @@ Before Grid existed there were plenty of options for developers to layout web pa
 ## Advantages
 - Grid solves the need for many of the hacks that were needed for the previous elements to work. 
 - Provides an easy way to structure elements on a page.
+
+## Layout
+Grid allows the develper to either implicitly or explictly define rows and columns.
+
+## 1-Start Example
+A grid is defined with three columns and two rows.  The rows are 50px in height and the columns are as follows: 1fr, 200px, 1fr.  The center column is always 200px wide no matter the size of the user's display.  The first and third columns are measureed in fr, fr is shorthand for fraction and adjusts to the available space.  fr can be declared as 2fr, .5fr, and so on.
