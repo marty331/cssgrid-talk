@@ -63,6 +63,7 @@
   .footer {
     grid-column: 1 / 4;
     grid-row: 4;
+    grid-template: 100px 100px / 1fr 200px 1fr;
   }
 }
 
