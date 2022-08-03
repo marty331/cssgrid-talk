@@ -13,5 +13,8 @@ Before Grid existed there were plenty of options for developers to layout web pa
 ## Layout
 Grid allows the develper to either implicitly or explictly define rows and columns.
 
-## 1-Start Example
-A grid is defined with three columns and two rows.  The rows are 50px in height and the columns are as follows: 1fr, 200px, 1fr.  The center column is always 200px wide no matter the size of the user's display.  The first and third columns are measureed in fr, fr is shorthand for fraction and adjusts to the available space.  fr can be declared as 2fr, .5fr, and so on.
+## 1-start Example
+A grid is defined with three columns and two rows.  The rows are 50px in height and the columns are as follows: 1fr 200px 1fr.  The center column is always 200px wide no matter the size of the user's display.  The first and third columns are measureed in fr, fr is shorthand for fraction and adjusts to the available space.  fr can be declared as 2fr, .5fr, and so on.
+
+## 2-media Example
+With the use of media queries we can size the rows and columns whenever a smaller device is detected.  The HTML has not changed only the css changed.  The media queries control values of the rows and columns.  When a small screen is detected the row size is set to 100px and the column sizes are set to repeat 3 columns of 1fr each.  When a medium sized screen (such as an iPad) is detected, the row size is set to 100px and the column sizes continue to be 1fr 200px 1fr.
